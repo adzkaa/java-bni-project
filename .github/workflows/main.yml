@@ -6,15 +6,6 @@ on:
       - master
 
 jobs:
-name: Notify Telegram on Merge to Main/Master
-
-on:
-  push:
-    branches:
-      - main
-      - master
-
-jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
