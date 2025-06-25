@@ -16,7 +16,7 @@ jobs:
         run: |
           curl -X POST "https://api.telegram.org/bot8161018250:AAEChR_GmId41XjMsj4__YPVqrIXqIZd4Ns/sendMessage" \
             -d chat_id=5850915085 \
-            -d text="🚨 Merge to Main/Master Branch 🚨\nA merge has been made to the main/master branch. Please review the changes!"
+            -d text="🚨 Merge to Main/Master Branch 🚨\nA merge has been made to the main/master branch. Please review the changes! -INI ADZKAAAAA"
   # trigger-build:
   #   runs-on: ubuntu-latest
 
